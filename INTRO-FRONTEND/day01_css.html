@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INTRO CSS</title>
+        <!-- NOTE -->
+        <!-- EXTERNAL STYLE nya file nya dipanggil disini -->
+        <link rel="stylesheet" type="text/css" href="day01_css.css">
+
+        <style>
+            /* h1, h2, h5{
+                color: red;
+            }
+
+            h4 {
+                color: orange;
+            }
+
+            p {
+                color: red;
+            }
+
+            .mobil {
+                color: blue;
+                font-size: 30px;
+            }
+
+            #avanza {
+                color: greenyellow
+            }
+
+            a[href] {
+                color: red;
+            } */
+            
+            /* DESCENDANT SELECTOR */
+            /* main h2 {
+                color: red;
+                font-family: Impact;
+            }
+
+            header h2, footer h2 {
+                color:seagreen;
+                font-family: Arial, Helvetica, sans-serif;
+            } */
+
+            main > p {
+                color: red;
+                font-family: Impact;
+                font-size: 30px
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- NOTE
+        <!-- INLINE STYLE : style dilakukan lgsg dlm satu line -->
+        <!-- <h1 style="color: purple;">INI INLINE STYLE</h1> -->
+
+        <!-- NOTE -->
+        <!-- INTERNAL STYLE -->
+        <!-- <h2>INI INTERNAL STYLE</h2> -->
+
+        <!-- NOTE -->
+        <!-- EXTERNAL STYLE : diluar file & diimport melalui head -->
+        <!-- <h3>INI HEADING EXTERNAL STYLE</h3> -->
+<!-- 
+        <h4>Halo</h4>
+        <p>Hai</p>
+        <p class="mobil" id="avanza">Ini Avanza</p>
+        <p class="mobil" id="alya">Ini Alya</p>
+
+        <p><a href="#">Ini link</a> -->
+
+        <!-- <h1>INI H1</h1>
+        <h2>INI H2</h2>
+        <h5>INI H5</h5> -->
+
+        <!-- DESCENDANT SELECTOR -->
+        <!-- <header>
+            <h2>INI HEADER</h2>
+        </header>
+        <main>
+            <h2>INI KONTEN</h2>
+        </main>
+        <footer>
+            <h2>INI FOOTER</h2>
+        </footer> -->
+
+        <!-- CHILD SELECTOR -->
+        <main>
+            <p>di dalam main</p>
+            <div>
+                <p>di dalam div</p>
+            </div>
+        </main>
+    </body>
+</html>

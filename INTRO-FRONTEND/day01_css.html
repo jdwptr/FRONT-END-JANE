@@ -7,8 +7,14 @@
         <!-- NOTE -->
         <!-- EXTERNAL STYLE nya file nya dipanggil disini -->
         <link rel="stylesheet" type="text/css" href="day01_css.css">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">    
         <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+                padding: 0;
+            }
             /* h1, h2, h5{
                 color: red;
             }
@@ -45,12 +51,62 @@
                 font-family: Arial, Helvetica, sans-serif;
             } */
 
-            main > p {
+            /* child selector */
+            /* main > div > p {
                 color: red;
                 font-family: Impact;
                 font-size: 30px
+            } */
+
+            /* h1 + p {
+                color: red;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 30px;
+            } */
+
+            /* body {
+                background: url("kucing.jpg") no-repeat;
+            } */
+
+            h1 {
+                color: rgb(88, 88, 180);
             }
 
+            h2 {
+                color: #00FF00;
+            }
+
+            /* p {
+                color: black;
+                font-family: 'Belleza', sans-serif;
+            } */
+
+            ul {
+                list-style-type: lower-roman;
+            }
+
+            /* box model */
+
+            #div1 {
+                background-color: salmon;
+                width: 200px;
+                height: 200px;
+                margin: 20px auto;
+                /* padding: 0; */
+            }
+
+            #div2 {
+                background-color: darkslateblue;
+                width: 100px;
+                height: 100px;
+                margin-top: 30px;
+            }
+
+            /* div {
+                width: 100px;
+                height: 100px;
+                background-color: rgba(100,75, 255, 0.3)
+            } */
         </style>
     </head>
     <body>
@@ -89,11 +145,41 @@
         </footer> -->
 
         <!-- CHILD SELECTOR -->
-        <main>
+        <!-- <main>
             <p>di dalam main</p>
             <div>
                 <p>di dalam div</p>
-            </div>
-        </main>
+            </div> -->
+
+        <!-- adjacent selector -->
+        <!-- <main>
+            <h1>Ini header</h1>
+            <p>Ini paragraf 1</p>
+            <p>Ini paragraf 2</p>
+            <p>Ini paragraf 3</p>
+            <h1>ini heading 1 lagi</h1>
+            <p>berubah juga jadi merah</p>
+        </main> -->
+
+        <!-- <h1>Selamat datang!</h1>
+        <h2>Purwadhika</h2>
+        <p>Startup & Coding School</p> -->
+        <!-- <div></div> -->
+
+        <!-- CARA PAKAI GFONTS -->
+        <!-- <h1>HELLO</h1>
+
+        <ul>
+            <li>List #1</li>
+            <li>List #2</li>
+            <li>List #3</li>
+        </ul> -->
+
+        <!-- width height -->
+        <div id="div1">
+            <div id="div2"></div>
+        </div>
+
+
     </body>
 </html>

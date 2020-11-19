@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        #main div {
+            margin: 5px;
+        }
+
+        #main {
+            width: 700px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        #header, #content, #footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #header {
+            background-color: #3D405B;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            flex-grow: 1;
+        }
+
+        #content {
+            background-color: #81B29A;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-grow: 1;
+        }
+
+        #content-kiri, #content-kanan {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 200px;
+            height: 40px;
+        }
+
+        #footer {
+            background-color: #F2CC8F;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">HEADER</div>
+        <div id="content">
+            <div id="content-kiri">LEFT CONTENT</div>
+            <div id="content-kanan">RIGHT CONTENT</div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </div>
+</body>
+</html>

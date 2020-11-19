@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 02 BOX MODEL CSS</title>
+    <style>
+        /* NOTE */
+        /* LATIHAN MARGIN */
+        /* div {
+                /* BIAR DIV NYA SEBELAHAN */
+        /* TAPI KALAU SEBELAHAN ADA SPASI, JADI TAG DIV NYA HARUS SEGARIS DI BODY */
+        /* GAK BISA DITUMPUK PASTI ADA JARAK, ANOMALI */
+        /* display: inline-block; */
+        /* }*/
+
+        /* #div1 {
+                width: 200px;
+                height: 200px;
+                background-color: cadetblue;
+                /* OVERLAPPING HORIZONTAL DIA AKAN MENAMBAH */
+        /* margin-right: 100px; */
+
+        /* OVERLAPPING VERTIKAL */
+        /* margin-bottom: 50px; */
+
+        /* MARGIN BIASA */
+        /* margin-top: 100px;
+                margin-left: 50px;
+                margin-right: 300px; */
+        /* }*/
+
+        /* #div2 {
+                width: 100px;
+                height: 100px;
+                background-color: coral;
+                /* OVERLAPPING HORIZONTAL DIA AKAN MENAMBAH */
+        /* margin-left: 50px */
+
+        /* NEGATIVE MARGIN HORIZONTAL */
+        /* margin-left: -200px */
+
+        /* SHORTHAND; */
+        /* margin: 50px 100px 150px 200px; */
+
+        /* NEGATIVE MARGIN VERTIKAL*/
+        /* margin-top: -100px; */
+
+        /* OVERLAPPING VERTIKAL KALAH SAMA PIXEL YG LBH GEDE */
+        /* margin-top: 20px; */
+
+        /* MARGIN BAWAH */
+        /* margin-bottom: 50px; */
+        /* } */
+
+        /* #div3 {
+                width: 50px;
+                height: 50px;
+                background-color: grey;
+            } */
+
+        /* NOTE */
+        /* LATIHAN PADDING */
+        #div1 {
+            width: 500px;
+            background-color: mediumpurple;
+            margin: 30px auto;
+            /* border-color: midnightblue;
+            border-width: 5px;
+            border-style: solid; */
+
+            /* SHORTHAND BORDER */
+            border: 10px midnightblue solid;
+
+            /* padding tidak ada NEGATIVE, GADA OVERLAPPING, GADA AUTO */
+            /* padding: 50px 100px 150px 200px;*/
+        }
+
+        #div2 {
+            width: 500px;
+            background-color: lightblue;
+            margin: 30px auto;
+            border: 50px salmon ridge;
+        }
+
+        /* BOX SIZING */
+        div {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div id="div3">3</div> -->
+
+    <div id="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Similique quo vitae praesentium iste nesciunt fuga iure reprehenderit et quos,
+        numquam id nemo omnis rerum velit sapiente optio quod. Et, vitae.</div>
+    <div id="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quae cupiditate aperiam vel quos sint odio quibusdam
+        quia animi omnis quas explicabo fugiat tenetur et inventore harum error id, libero deserunt.</div>
+</body>
+
+</html>

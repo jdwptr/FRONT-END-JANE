@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DAY 02 FLEXBOX</title>
+        <style>
+            #container {
+                width: 800px;
+                height: 200px;
+                border: 5px midnightblue solid;
+                display: flex;
+                flex-direction: row;
+                /* justifiy content mengatur flex secara MAIN AXIS */
+                justify-content: center;
+                /* align items mengatur flex secara CROSS AXIS */
+                align-items: center;
+            }
+
+            #div1, #div2, #div3, #div4, #div5, #div6, #div7 {
+                width: 80px;
+                height: 80px;
+                background-color: peru;
+            }
+
+        </style>
+    <body>
+        <div id="container">
+            <div id="div1">SATU</div>
+            <!-- <div id="div2">DUA</div>
+            <div id="div3">TIGA</div>
+            <div id="div4">EMPAT</div>
+            <div id="div5">LIMA</div>
+            <div id="div6">ENAM</div>
+            <div id="div7">TUJUH</div> -->
+        </div>
+    </body>
+</html>

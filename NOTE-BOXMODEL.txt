@@ -1,0 +1,12 @@
+CSS BOX MODEL :
+1. MARGIN :
+Margin u/ mengatur space antara elemen yg satu dgn yg lainnya, mengukur dr border keluar, 
+
+2. PADDING :
+Padding u/ mengatur jarak antara border dengan isi dari elemen tersebut
+
+3. BORDER :
+Border aldh u/ memberi batasan kepada suatu elemen
+
+4. BOX SIZING :
+Box Sizing adalah metode un/ menentukan ukuran dari suatu elemen

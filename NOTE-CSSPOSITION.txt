@@ -1,0 +1,24 @@
+POSITION :
+1. STATIC :
+^Default position dari setiap element, kalau kita ga define, otomatis begitu
+-KALAU STATIC TIDAK ADA PROPERTI
+-SELAIN STATIC PUNYA PROP
+
+2. NON STATIC :
+
+A. RELATIVE :
+^Membuat suatu elemen keluar dari flow, (Ke-angkat satu, kayak podium juara 1, 2, 3)
+-KALO RELATIVE, PUNYA PROPERTY TOP
+-(KALO MARGIN NGEGESER, KALO POSITION RELATIVE DIA TIDAK MENGGESER ELEMEN SEBELAHNYA)
+-(BISA NEGATIVE TOP NYA)
+-SEPERTI RELATIVE TAPI DIA MASUK KE KOSONG NYA, JADI NUMPUK 2
+
+B. ABSOLUTE :
+^Membuat suatu elemen keluar flow dan bergantung kepada PARENT TERDEKAT YG NON-STATIC
+- SEPERTI NUMPUK KERTAS ORIGAMI
+
+C. FIXED :
+^Membuat suatu elemen keluar dari flow dan bergantung kepada BODY
+- MAU PARENT RELATIVE ATAU NGGAK< DIA TETEP KE BODY
+- Kalo body nya height, bisa di scroll, terus yg di fixed itu dia ga geser sama sekali tetap disitu
+- BIASANYA HEADER

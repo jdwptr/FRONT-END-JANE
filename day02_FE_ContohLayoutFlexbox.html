@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FLEXBOX LAYOUT EXAMPLE</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                padding: 20px;
+                font-size: 20px;
+            }
+
+            #container {
+                display: flex;
+                flex-direction: column;
+                height: 500px;
+                width: 500px;
+                margin: auto;
+            }
+
+            #header {
+                background-color: seagreen;
+                flex-grow: 1;
+            }
+
+            #nav {
+                background-color: tan;
+                flex-grow: 1;
+            }
+
+            #content {
+                flex-grow: 4;
+                display: flex;
+                flex-direction: row;
+            }
+
+            #c1 {
+                background-color: rosybrown;
+                flex-grow: 1;
+            }
+
+            #c2 {
+                background-color: tomato;
+                flex-grow: 2;
+            }
+
+            #c3 {
+                background-color: rosybrown;
+                flex-grow: 1;
+            }
+
+            #container div {
+                margin: 5px;
+            }
+
+            #header, #nav, #c1, #c2, #c3, #footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #footer {
+                background-color: sandybrown;
+                flex-grow: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">HEADER</div>
+            <div id="nav">NAVIGATION</div>
+            <div id="content">
+                <div id="c1">CONTENT</div>
+                <div id="c2">MAIN CONTENT</div>
+                <div id="c3">CONTENT</div>
+            </div>
+            <div id="footer">FOOTER</div>
+        </div>
+    </body>
+</html>

@@ -36,26 +36,37 @@
 
         #header {
             background-color: #3D405B;
-            /* display: flex;
-            justify-content: center;
-            align-items: center; */
             flex-grow: 1;
         }
 
         #content {
-            background-color: #81B29A;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            flex-grow: 1;
+            flex-grow: 3;
         }
 
         #content-kiri, #content-kanan {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
             width: 200px;
             height: 40px;
+        }
+
+        #content-kiri {
+            background-color: #CCD5AE;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        #content-kanan {
+            background-color: #81B29A;
         }
 
         #footer {

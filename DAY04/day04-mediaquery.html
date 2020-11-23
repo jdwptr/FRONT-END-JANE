@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERY</title>
+    <style>
+        * {
+            transition: 800ms;
+        }
+
+        #container {
+            width: 500px;
+            height: 450px;
+            background-color: orange;
+            display: flex;
+            align-items: center;
+        }
+
+        #container div {
+            width: 100px;
+            height: 100px;
+            background-color: orchid;
+            margin: 0 20px;
+        }
+        
+
+        /* Kalau dibawah 600 ini tidak berlaku, css ini berlaku mulai dari 600px keatas */
+    @media only screen and (min-width: 600px) {
+           body {
+              background-color: sandybrown;
+           }
+        }
+
+    /* Kalau lebih besar dari 600px tidak berlaku, berlaku kalau maks nya 600px */
+    @media only screen and (max-width: 600px) {
+           body {
+              background-color: cadetblue;
+           }
+
+           h1 {
+               color: maroon;
+               margin-top: 50px;
+           }
+
+           #container {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+
+           }
+
+           #container div {
+                margin: 20px 0;
+           }
+        }
+
+    /* Kalau dibawah 700 ini tidak berlaku, css berlaku ketika mulai dari 700px keatas  */
+    @media only screen and (min-width: 700px) {
+           body {
+              background-color: greenyellow;
+           }
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+    <div id="container">
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div id="div3">3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+-Intro to react js
+what when why how
+-Create react project
+-project structure
+-jsx and react component

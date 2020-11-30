@@ -23,7 +23,7 @@ class Navigation extends React.Component {
                 <Link to="/content1">Content-1</Link>
             </Nav.Link>
             <Nav.Link>
-                <Link to="/content2">Content-2</Link>
+                <Link to="/content2">Content-1</Link>
             </Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
